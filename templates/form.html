@@ -11,6 +11,9 @@
 </head>
 <body>
     <h1>Formulaire d'inscription :</h1>
+    <div class="loader">
+        <div class="circleloader"></div>
+      </div>
     <form action="{{ url_for('register') }}" method="post">
         <label for="nomUtilisateur">Nom d'utilisateur :</label>
         <input type="text" id="nomUtilisateur" name="nomUtilisateur" required>
@@ -18,5 +21,9 @@
         <input type="password" id="mdp" name="mdp" required>
         <button type="submit" style="width: 25%;">S'inscrire</button>
     </form>
+    <div class="ocean" style="opacity: calc(50%);">
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
 </body>
 </html>

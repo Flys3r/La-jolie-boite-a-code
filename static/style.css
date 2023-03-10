@@ -9,6 +9,16 @@ body{
     font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
 }
+.inscription_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
 h1 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -48,7 +58,7 @@ form {
     font-size: 1.2rem;
     margin-bottom: 10px;
   }
-  
+
   input[type="texte"]{
     padding: 10px;
     margin-bottom: 20px;

@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Inscription réussie</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
+{% extends 'base.html' %}
+
+{%block title%}
+    Formulaire réussi
+{%endblock%}
+
+{%block body%}
     <h1>Inscription réussie</h1>
     <p class="inscription_text">Merci de vous être enregistré !</p>
     <div class="container">
@@ -15,5 +14,4 @@
         <div class="wave"></div>
         <div class="wave"></div>
       </div>
-</body>
-</html>
+      {%endblock%}

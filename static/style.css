@@ -18,7 +18,11 @@ body{
   font-family: 'Josefin Sans', sans-serif;
 
 }
-
+.logo{
+  display: flex;
+  margin-left: 1%;
+  size: 20%;
+}
 h1 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -80,10 +84,6 @@ form {
     width: 300px;
     max-width: 100%;
   }
-
-body {
-  height: 100%;
-}
 
 body {
   background: radial-gradient(ellipse at center, #fffeea 0%, #fffeea 35%, #b7e8eb 100%);

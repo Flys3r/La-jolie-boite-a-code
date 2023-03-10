@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contacts</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+{% extends 'base.html' %}
+
+{%block title%}
+    Voir les contacts
+{%endblock%}
+
+{%block body%}
     <h1>Voir les contacts</h1>
     <a href="/home">→ Accueil ←</a>
-</body>
-</html>
+{%endblock%}

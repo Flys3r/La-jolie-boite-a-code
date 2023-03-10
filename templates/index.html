@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>La Jolie Boite à Code</title>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Merci de vous inscrire :</h1>
-        <div class="container">
-            <a href="/form" style="width: 25%;"><button>→ S'inscrire ←</button></a>
-        </div>
-      </form>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{%block title%}
+    Index
+{%endblock%}
+
+{%block body%}
+    <div class="container">
+        <a href="/form" style="width: 25%;"><button>→ S'inscrire ←</button></a>
+    </div>
+{%endblock%}

@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Inscription de nouveaux contacts</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
+{% extends 'base.html' %}
+
+{%block title%}
+    Inscription de contacts
+{%endblock%}
+
+{%block body%}
 	<h1>Inscrire de nouveaux contacts</h1>
-</body>
-</html>
+    {%endblock%}

@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+}
+.en-tete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffc573;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  input[type="texte"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffd9a0;
+    font-size: 1.1rem;
+    width: 300px;
+    max-width: 100%;
+  }

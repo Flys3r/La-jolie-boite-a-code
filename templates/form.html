@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Formulaire d'inscription</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Formulaire d'inscription :</h1>
+    <form action="#" method="post">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="texte" id="username" name="username" required>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <div class="en-tete">
+            <a href="/sucess">→ Me connecter ←</a>
+        </div>
+      </form>
+</body>
+</html>

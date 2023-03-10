@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Bienvenue!</h1>
-	<div class="container">
-        <a href=".contacts.html"><button>Voir les contacts</button></a>
-		<a href=".inscriptioncontacts.html"><button>Inscrire un nouveau contact</button></a>
-        <a href=".inscriptionboites.html"><button>Inscrire une nouvelle entreprise</button></a>
-	</div>
+    <h1>Formulaire d'inscription :</h1>
+    <form action="{{ url_for('register') }}" method="post">
+        <label for="nomUtilisateur">Nom d'utilisateur :</label>
+        <input type="text" id="nomUtilisateur" name="nomUtilisateur" required>
+        <label for="mdp">Mot de passe :</label>
+        <input type="password" id="mdp" name="mdp" required>
+        <button type="submit">S'inscrire</button>
+    </form>
 </body>
 </html>

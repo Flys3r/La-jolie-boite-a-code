@@ -12,7 +12,7 @@ Bienvenue dans **La jolie boîte à code** ! Ce projet est un CRM (Customer Rela
 - Inscription des entreprises
 - Gestion des profils des employés
 - Interface utilisateur intuitive
-- Sauvegarde des données dans une base de données SQLite
+- Sauvegarde des données dans une base de données sur Mysql
 - Authentification sécurisée
 
 ## Installation
